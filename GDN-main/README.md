@@ -1,14 +1,14 @@
 # GDN
 
-Code implementation for : [Graph Neural Network-Based Anomaly Detection in Multivariate Time Series(AAAI'21)](https://arxiv.org/pdf/2106.06947.pdf)
+Code implementation for : [Graph Neural Network-Based Anomaly Detection in Multivariate Time Series data]
 
 
 # Installation
 ### Requirements
-* Python >= 3.6
+* Python == 3.6
 * cuda == 10.2
 * [Pytorch==1.5.1](https://pytorch.org/)
-* [PyG: torch-geometric==1.5.0](https://pytorch-geometric.readthedocs.io/en/latest/notes/installation.html)
+* use pip to install torch libraries
 
 ### Install packages
 ```
@@ -64,16 +64,4 @@ You can change running parameters in the run.sh.
 SWaT and WADI datasets can be requested from [iTrust](https://itrust.sutd.edu.sg/)
 
 
-# Citation
-If you find this repo or our work useful for your research, please consider citing the paper
-```
-@inproceedings{deng2021graph,
-  title={Graph neural network-based anomaly detection in multivariate time series},
-  author={Deng, Ailin and Hooi, Bryan},
-  booktitle={Proceedings of the AAAI Conference on Artificial Intelligence},
-  volume={35},
-  number={5},
-  pages={4027--4035},
-  year={2021}
-}
-```
+
